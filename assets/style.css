@@ -30,8 +30,19 @@ ul {
     margin:auto;
     padding: 0.25rem;
 }
-li{
+li {
     margin: 0.5rem 0;
+}
+.nav {
+    width:80%;
+}
+#button {
+    padding:0.25em;
+    text-decoration:none;
+    display:block;
+    color:#001e1d;
+    width:100%;
+    background-color: #f9bc60;
 }
 
 .card {
@@ -57,7 +68,7 @@ h2{
 }
 
 #description {
-    padding:1em;
+    padding: 0 2em;
 }
 
 #small, #large {
@@ -69,4 +80,12 @@ h2{
 #projects {
     width:100%;
     height:auto;
+}
+
+.contact {
+    width:80%;
+}
+
+a:hover{
+    box-shadow: 5px 5px 20px #004643;
 }
