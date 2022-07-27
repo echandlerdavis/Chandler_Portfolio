@@ -72,7 +72,7 @@ h2{
     padding: 0 2em;
 }
 
-#small, #large {
+.small, .large {
     width:85%;
     height:auto;
     margin:1em;
@@ -139,10 +139,10 @@ a:hover{
         flex-wrap: wrap;
     }
 
-    #large {
+    .large {
         margin:auto;
     }
-    #small {
+    .small {
         width:29%;
         height:10%;
         display:inline
